@@ -20,7 +20,7 @@ export const postJob = async (req, res) => {
             });
         }
 
-        console.log(salary);6
+        console.log(salary);
 
         const job = await Job.create({
             title,
